@@ -16,7 +16,7 @@ function Home() {
                     <h1 className="font-bold text-center md:text-9xl  text-6xl  text-green-500">E</h1>
                     <h1 className="font-bold text-center text-6xl md:text-9xl">nspire</h1>
                     <h1 className="font-bold text-center text-6xl md:text-9xl"> '23</h1>
-                    <div class="w-48 md:w-96 h-1 border-b-2 border-white rounded-xl  md:mt-4"></div>
+                    <div className="w-48 md:w-96 h-1 border-b-2 border-white rounded-xl  md:mt-4"></div>
                 </div>
                 <br></br>
                 <p className="text-5xl font-semibold tracking-wide  mb-64">Innovation Odessey</p>

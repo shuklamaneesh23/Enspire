@@ -8,6 +8,7 @@ import Workshop from './components/speaker'
 
 import DjCard from './components/djCard'
 import Footer from './components/footer'
+import Events from './components/events'
 
 
 function App() {
@@ -16,11 +17,7 @@ function App() {
   return (
     <>
     <Navbar/>
-    <Home/>
-    <Sponsers/>
-    <About/>
-    <Workshop/>
-    <DjCard />
+    <Events/>
     <Footer/>
     
     </>
