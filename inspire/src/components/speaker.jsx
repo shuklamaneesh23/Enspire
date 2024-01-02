@@ -3,9 +3,9 @@ import SpeakerCard from "./speakerCard";
 
 function Workshop() {
     return (
-        <div className="w-full h-auto bg-black text-white p-12 flex flex-col gap-y-12">
+        <div className="w-full h-auto bg-black text-white p-12 pt-24 lg:pt-24 flex flex-col gap-y-12">
             <div>
-                <h1 className="font-semibold text-center text-5xl md:text-8xl">Speaker Sessions</h1>
+                <h1 className="font-semibold text-center text-5xl text-[#BD9F67] md:text-8xl">Speaker Sessions</h1>
             </div>
             <div className="text-xl mt-6 font-light font-mono">
                 <p className="pr-16 pl-16">Get first hand experience and learn from quality speaker sessions which fare across a wide area of interests.</p>

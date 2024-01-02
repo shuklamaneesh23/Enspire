@@ -8,6 +8,10 @@ import Home from './components/home.jsx';
 import Events from './components/events.jsx';
 import Workshop from './components/speaker.jsx';
 import Landing from './components/landingPage.jsx';
+import Sponsers from './components/sponsors.jsx';
+import Team from './components/team.jsx';
+import Contact from './components/contact.jsx';
+import About from './components/about.jsx';
 
 const router = createBrowserRouter([
   {
@@ -20,15 +24,31 @@ const router = createBrowserRouter([
       },
       {
         path:"home",
-        element:<Home/>
+        element:<Landing/>
       },
       {
         path:"events",
         element:<Events/>
       },
       {
+        path:"sponsors",
+        element:<Sponsers/>
+      },
+      {
+        path:"teams",
+        element:<Team/>
+      },
+      {
         path:"gallery",
         element:<Workshop/>
+      },
+      {
+        path:"contact",
+        element:<Contact/>
+      },
+      {
+        path:"about",
+        element:<About/>
       }
     ]
   }

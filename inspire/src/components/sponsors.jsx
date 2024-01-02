@@ -1,11 +1,11 @@
 import React from "react";
-import Card from "./card";
+import Card from "./sponsorCard";
 
 function Sponsers() {
     return (
         <div className="w-full h-auto p-12 bg-black text-white flex flex-col">
             <div>
-                <h1 className="font-semibold text-center text-5xl md:text-8xl">Our Sponsors</h1>
+                <h1 className="font-semibold text-center text-[#BD9F67] text-5xl md:text-8xl mt-12">Our Sponsors</h1>
             </div>
 
             <div className="w-full flex flex-wrap justify-evenly mt-12 gap-9">
